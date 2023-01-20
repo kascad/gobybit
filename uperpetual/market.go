@@ -30,10 +30,10 @@ type KlineItem struct {
 	Period   KlineInterval `json:"period"`
 	StartAt  uint64        `json:"start_at"`
 	Volume   float64       `json:"volume"`
-	Open     float64        `json:"open"`
-	High     float64        `json:"high"`
+	Open     uint64        `json:"open"`
+	High     uint64        `json:"high"`
 	Low      float64        `json:"low"`
-	Close    float64        `json:"close"`
+	Close    uint64        `json:"close"`
 	Interval KlineInterval `json:"interval"`
 	OpenTime uint64        `json:"open_time"`
 	Turnover float64        `json:"turnover"`
