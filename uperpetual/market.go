@@ -36,7 +36,7 @@ type KlineItem struct {
 	Close    string        `json:"close"`
 	Interval KlineInterval `json:"interval"`
 	OpenTime uint64        `json:"open_time"`
-	Turnover string        `json:"turnover"`
+	Turnover float64        `json:"turnover"`
 }
 
 func (this *Client) QueryKline(v QueryKline) ([]KlineItem, error) {
