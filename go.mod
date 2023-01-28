@@ -1,4 +1,4 @@
-module github.com/ginarea/gobybit
+module github.com/kascad/gobybit
 
 go 1.18
 
